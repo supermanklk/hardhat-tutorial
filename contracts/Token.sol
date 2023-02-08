@@ -1,6 +1,7 @@
 // Solidity files have to start with this pragma.
 // It will be used by the Solidity compiler to validate its version.
 pragma solidity ^0.8.7;
+import "hardhat/console.sol";
 
 // This is the main building block for smart contracts.
 contract Token {
@@ -26,6 +27,7 @@ contract Token {
     constructor() {
         // The totalSupply is assigned to transaction sender, which is the account
         // that is deploying the contract.
+
         balances[msg.sender] = totalSupply;
         owner = msg.sender;
     }
