@@ -1,0 +1,71 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/zhangbin10/Desktop/web3/hardhat-tutorial/contracts/GeneratedWallet.sol": {
+      "lastModificationDate": 1675763577469,
+      "contentHash": "cdb7d17e89a1475dbd06c94010e21bba",
+      "sourceName": "contracts/GeneratedWallet.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/Users/zhangbin10/Desktop/web3/hardhat-tutorial/contracts/Token.sol": {
+      "lastModificationDate": 1675761705802,
+      "contentHash": "507df168733be07e0b5ef2b41aacab14",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    }
+  }
+}
